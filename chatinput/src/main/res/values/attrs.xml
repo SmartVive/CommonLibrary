@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ChatInputView">
+        <attr name="sendButtonBackground" format="reference"/>
+        <attr name="contentTextColor" format="color"/>
+        <!--第一次使用时菜单栏高度，后面将会使用测量的键盘高度-->
+        <attr name="menuLayoutHeight" format="dimension"/>
+        <!--是否支持语音消息-->
+        <attr name="isSupportVoiceMessage" format="boolean"/>
+    </declare-styleable>
+
+</resources>

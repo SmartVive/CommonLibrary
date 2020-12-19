@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnVoiceCall"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/chatinput_bg_btn_white"
+        android:gravity="center"
+        android:text="语音通话"
+        android:textColor="#333333" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#c9c9c9" />
+
+    <Button
+        android:id="@+id/btnVideoCall"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/chatinput_bg_btn_white"
+        android:gravity="center"
+        android:text="视频通话"
+        android:textColor="#333333" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/chatinput_bg_btn_white"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#333333" />
+
+
+</LinearLayout>
